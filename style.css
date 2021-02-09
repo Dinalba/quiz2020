@@ -12,6 +12,7 @@ body{
     height: 1000px;
 }
 
+/*Navbar*/
 .header .menu{
     height: 50px;
     width: 100vw;
@@ -46,3 +47,57 @@ body{
     font-size: 18px;
     color: deeppink;
 }
+
+/*Section Hero*/
+.hero{
+    top: 50px;
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background: url(images/Background1.png);    
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    animation: hero 15s infinite linear;
+}
+
+.hero .slide h1{
+    font-size: 400%;
+}
+
+.hero .slide h2{
+    font-style: italic;
+    color:deeppink;
+}
+
+.hero .slide{
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    background-color: rgba(0, 22, 40, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes hero{
+    0%{
+        background-image: url(images/Background4.png);
+    }
+    20%{
+        background-image: url(images/Background2.png);
+    }
+    40%{
+        background-image: url(images/Background3.png);
+    }
+    60%{
+        background-image: url(images/Background4.png);
+    }
+    100%{
+        background-image: url(images/Background1.png);
+    }
+    
+}
+
+
