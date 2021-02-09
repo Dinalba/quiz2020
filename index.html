@@ -1,25 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section class="header">
-        <nav class="menu">
-            <div class="logo">
-                <img src="images/LogoDina.png" alt="logo"/>
-            </div>
-            <ul class="navbar">
-                <li>Hero</li>
-                <li>About me</li>
-                <li>Experience</li>
-                <li>Skills</li>
-                <li>Contact me</li>
-            </ul>
-        </nav>    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header"id="header">
+      <nav class="menu">
+        <div class="logo">
+          <img src="images/LogoDina.png" alt="logo" />
+        </div>
+        <ul class="navbar">
+          <li><a href=#header>Hero</a></li>
+          <li><a href=#experience>Experience</a></li>
+          <li><a href=#skills>Skills</a></li>
+          <li><a href=#contact>Contact Me</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="hero">
+      <div class="slide">
+        <h1>Dinalba Navas</h1>
+        <h2>Página Web Personal</h2>
+      </div>
+    </section>
+
+    <section class="experience"  id="experience">
+      <h3>My Experience</h3>
+      <div class="flex">
+        <div class="proyect">
+          <p class="pTitle">Adivinador de Animales</p>
+          <img src="images/p1.png" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos similique dolores optio facere repellendus incidunt
+            voluptate pariatur distinctio. Eius voluptate sint totam ducimus.
+          </p>
+          <p>Tecnologies: Java</p>
+          <p>Date: 07/09/2020</p>
+        </div>
+        <div class="proyect">
+          <p class="pTitle">Simulador de Hormigas</p>
+          <img src="images/p1.png" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos similique dolores optio facere repellendus incidunt
+            voluptate pariatur distinctio. Eius voluptate sint totam ducimus.
+          </p>
+          <p>Tecnologies: Java</p>
+          <p>Date: 07/09/2020</p>
+        </div>
+        <div class="proyect">
+          <p class="pTitle">BDD de Asociación de Vecinos</p>
+          <img src="images/p1.png" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos similique dolores optio facere repellendus incidunt
+            voluptate pariatur distinctio. Eius voluptate sint totam ducimus.
+          </p>
+          <p>Tecnologies: Java</p>
+          <p>Date: 07/09/2020</p>
+        </div>
+        <div class="proyect">
+          <p class="pTitle">Simulador de Árboles AVL</p>
+          <img src="images/p1.png" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Dignissimos similique dolores optio facere repellendus incidunt
+            voluptate pariatur distinctio. Eius voluptate sint totam ducimus.
+          </p>
+          <p>Tecnologies: Java</p>
+          <p>Date: 07/09/2020</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h3>My Skills</h3>
+      <p>JAVA</p>
+      <div class="bar">
+        <div id="bar1"></div>
+      </div>
+      <p>HTML</p>
+      <div class="bar">
+        <div id="bar2"></div>
+      </div>
+      <p>CSS</p>
+      <div class="bar">
+        <div id="bar3"></div>
+      </div>
+      <p>JavaScript</p>
+      <div class="bar">
+        <div id="bar4"></div>
+      </div>
+      <p>English</p>
+      <div class="bar">
+        <div id="bar5"></div>
+      </div>
+      <p>Excel</p>
+      <div class="bar">
+        <div id="bar6"></div>
+      </div>
+    </section>
+
+    <section class="contact" id=contact>
+      <h3>Contact me</h3>
+      <p>To contact me via email, please fill out the form below.</p>
+
+      <div class="form">
+        <input
+          type="text"
+          class="text"
+          id="name"
+          placeholder="Nombre y Apellido"
+        />
+        <input
+          type="text"
+          class="text"
+          id="cellphone"
+          placeholder="+584142263186"
+        />
+        <input
+          type="email"
+          class="text"
+          id="email"
+          placeholder="ejemplo@gmail.com"
+        />
+        <textarea
+          name="msg"
+          class="text"
+          id="message"
+          cols="30"
+          rows="6"
+          placeholder="Escribe tu mensaje"
+        ></textarea>
+        <button class="btn-send-msg" id="btn-send-msg"><b>Send</b></button>
+      </div>
+
+      <footer>
+        <div class="socialmedia">
+          <a href="https://www.instagram.com/dinalbanavas" target="_blank" class="link">
+            <img src="images/iconIG.png" alt="instagram" />
+            <p>@dinalbanavas</p>
+          </a>
+        </div>
+        <div class="socialmedia">
+          <a href="https://www.facebook.com/profile.php?id=100006786258819" target="_blank" class="link">
+          <img src="images/iconFB.png" alt="facebook" />
+          <p>Dinalba Navas</p>
+        </a>
+        </div>
+        <div class="socialmedia">
+          <a href="https://www.twitter.com/NavasDinalba" target="_blank" class="link">
+          <img src="images/iconTW.png" alt="twitter" />
+          <p>@NavasDinalba</p>
+        </a>
+        </div>
+        <div class="socialmedia">
+          <a href="https://wa.me/584142263186/" target="_blank" class="link">
+          <img src="images/iconWS.png" alt="whatsapp" />
+          <p>+58 414 226 3186</p>
+        </a>
+        </div>
+      </footer>
+    </section>
+  </body>
+  <script src="main.js"></script>
 </html>
