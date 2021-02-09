@@ -28,7 +28,8 @@ body{
 }
 
 .header .menu .navbar{
-    display: none;
+    display: flex;
+    align-items: center;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -44,14 +45,4 @@ body{
 .header .menu .navbar li:hover{
     font-size: 18px;
     color: deeppink;
-}
-
-@media (min-width: 768px){
-    .header .menu .btn-hamburger{
-        display: none;
-    }
-    .header .menu .navbar{
-        display: flex;
-        align-items: center;
-    }
 }
